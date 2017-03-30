@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>diary-reader</title>
+</head>
+<body>
+  <main>
+    <aside id="diary-reader-aside"></aside>
+    <article id="diary-reader-article"></article>
+  </main>
+
+  <script src="builds/diary-reader-latest.js"></script>
+
+  <script>
+    window.diaryReader({
+      asideEl: '#diary-reader-aside',
+      articleEl: '#diary-reader-article',
+      user: 'kareniel',
+      repo: 'diary-reader'
+    })
+  </script>
+
+</body>
+</html>
